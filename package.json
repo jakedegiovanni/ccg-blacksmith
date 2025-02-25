@@ -1,0 +1,31 @@
+{
+  "name": "@jakedegiovanni/ccg-blacksmith",
+  "version": "0.0.1",
+  "description": "A rules engine for creating custom CCGs",
+  "homepage": "https://github.com/jakedegiovanni/ccg-blacksmith#readme",
+  "bugs": {
+    "url": "https://github.com/jakedegiovanni/ccg-blacksmith/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakedegiovanni/ccg-blacksmith.git"
+  },
+  "license": "MIT",
+  "author": "Jake Degiovanni",
+  "type": "module",
+  "scripts": {
+    "lint": "npm run lint --workspaces",
+    "fmt": "npm run fmt --workspaces"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.1",
+    "globals": "^16.0.0",
+    "prettier": "3.5.2"
+  },
+  "workspaces": [
+    "packages/rules-engine",
+    "apps/web"
+  ]
+}
