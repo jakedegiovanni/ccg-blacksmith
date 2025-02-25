@@ -1,0 +1,16 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+      "lib": ["ESNext", "DOM"],
+      "rootDir": "src",
+      "typeRoots": ["./node_modules/@types"],
+      "types": [],
+      "declaration": true,
+      "declarationMap": true,
+      "outDir": "dist"
+    },
+    "watchOptions": {
+      "excludeDirectories": ["**/node_modules"]
+    },
+    "include": ["src"]
+  }
