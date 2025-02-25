@@ -15,7 +15,8 @@
   "type": "module",
   "scripts": {
     "lint": "npm run lint --workspaces",
-    "fmt": "npm run fmt --workspaces"
+    "fmt": "npm run fmt --workspaces",
+    "dev": "npm run dev --workspaces --if-present"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

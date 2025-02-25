@@ -8,9 +8,13 @@
   "main": "src/index.ts",
   "scripts": {
     "lint": "npx eslint .",
-    "fmt": "npx prettier --write . "
+    "fmt": "npx prettier --write . ",
+    "dev": "npx vite"
   },
   "dependencies": {
     "@jakedegiovanni/ccg-blacksmith-rules-engine": "file:../../packages/rules-engine"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
   }
 }
