@@ -1,0 +1,24 @@
+{
+  "name": "ccg-blacksmith",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakedegiovanni/ccg-blacksmith.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakedegiovanni/ccg-blacksmith/issues"
+  },
+  "homepage": "https://github.com/jakedegiovanni/ccg-blacksmith#readme",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
